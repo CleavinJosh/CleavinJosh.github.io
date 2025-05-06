@@ -10,7 +10,7 @@ window.onscroll = function() {
 };
 
 scrollToTopBtn.onclick = function() {
-    // Scroll to the top of the document smoothly
+// Scroll to the top of the document smoothly
     window.scrollTo({
         top: 0,
     });

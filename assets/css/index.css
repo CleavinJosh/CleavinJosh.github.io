@@ -22,11 +22,17 @@ body {
   header h1 {
     margin: 0;
   }
-  
+
   nav a {
     color: white;
     margin-left: 1rem;
     text-decoration: none;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+    color: crimson;
+    transition: ease 0.3s;
   }
   
   section {
@@ -35,7 +41,7 @@ body {
     margin: auto;
   }
   
-  .project {
+  .project{
     background: white;
     padding: 1rem;
     border: 1px solid #ddd;
