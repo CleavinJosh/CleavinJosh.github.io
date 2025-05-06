@@ -6,6 +6,7 @@
     height: 0;
     overflow: hidden;
     max-width: 100%;  /* Ensure the iframe doesn't stretch beyond its parent container */
+    min-height: 200px;
 }
   
   /* The iframe itself */
