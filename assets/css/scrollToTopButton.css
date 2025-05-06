@@ -12,4 +12,9 @@
     display: none;
     transition: opacity 0.3s ease;
     text-decoration: none;
+    opacity: 0.9;
+  }
+
+.scroll-to-top:hover {
+    opacity: 1;
   }
