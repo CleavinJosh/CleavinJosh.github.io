@@ -3,56 +3,60 @@ html {
 }
 
 body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    background: #f8f9fa;
-    color: #333;
-    line-height: 1.6;
-  }
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
   
-  header {
-    background: #111;
-    color: white;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+header {
+  background: #111;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
   
-  header h1 {
-    margin: 0;
-  }
+header h1 {
+  margin: 0;
+}
 
-  nav a {
-    color: white;
-    margin-left: 1rem;
-    text-decoration: none;
-  }
+nav {
+  display: flex;
+  align-items: center;
+}
 
-  nav a:hover {
-    text-decoration: underline;
-    color: crimson;
-    transition: ease 0.3s;
-  }
+nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: crimson;
+  transition: ease 0.3s;
+}
   
-  section {
-    padding: 2rem;
-    max-width: 800px;
-    margin: auto;
-  }
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
   
-  .project{
-    background: white;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    margin-bottom: 1rem;
-    border-radius: 8px;
-  }
+.project{
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
   
-  footer {
-    text-align: center;
-    padding: 1rem;
-    background: #eee;
-    font-size: 0.9rem;
-  }
-  
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+  font-size: 0.9rem;
+}
