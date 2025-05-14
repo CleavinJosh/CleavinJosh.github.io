@@ -18,3 +18,8 @@
 .scroll-to-top:hover {
     opacity: 1;
   }
+
+/* .scroll-to-top:focus {
+    outline: none;
+    box-shadow: 0 0 5px #fff; 
+  } */
