@@ -5,7 +5,14 @@
     color: white;
     cursor: pointer;
     display: none; 
-  }  
+  }
+
+  button{
+    transition: ease 0.3s;
+  }
+  button:hover {
+    color: crimson;
+  }
 
 @media (max-width: 768px) {
   .menu-icon {

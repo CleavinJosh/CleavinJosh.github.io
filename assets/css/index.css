@@ -23,6 +23,10 @@ header h1 {
   margin: 0;
 }
 
+header h1:hover {
+  cursor: pointer;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -32,18 +36,28 @@ nav a {
   color: white;
   margin-left: 1rem;
   text-decoration: none;
+  transition: ease 0.3s;  
 }
 
 nav a:hover {
   text-decoration: underline;
   color: crimson;
-  transition: ease 0.3s;
+
 }
   
 section {
   padding: 2rem;
   max-width: 800px;
   margin: auto;
+}
+
+section a{
+  color: crimson;
+  text-decoration: none;
+}
+
+section a:hover{
+  text-decoration: underline;
 }
   
 .project{
