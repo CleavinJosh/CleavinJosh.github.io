@@ -13,13 +13,15 @@
     transition: opacity 0.3s ease;
     text-decoration: none;
     opacity: 0.9;
+    outline: none;
   }
 
 .scroll-to-top:hover {
     opacity: 1;
   }
 
-/* .scroll-to-top:focus {
-    outline: none;
+.scroll-to-top:focus {
+    outline: 3px solid #111;
+    outline-offset: 2px;
     box-shadow: 0 0 5px #fff; 
-  } */
+  }

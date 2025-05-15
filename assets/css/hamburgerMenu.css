@@ -10,7 +10,7 @@
   button{
     transition: ease 0.3s;
   }
-  button:hover {
+  header button:hover {
     color: crimson;
   }
 
