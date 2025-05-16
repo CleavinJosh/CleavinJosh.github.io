@@ -1,6 +1,7 @@
 const showMoreButton = document.getElementById('show-more-contributions');
 const showLessButton = document.getElementById('show-less-contributions');
 const drupalContributions = document.querySelectorAll('.drupal-contribution');
+const drupalProfiles = document.querySelectorAll('.drupal-profile');
 
 showMoreButton.addEventListener('click', () => {
   // Make all contributions visible
@@ -22,7 +23,11 @@ showLessButton.addEventListener('click', () => {
   showMoreButton.classList.remove('hidden');
 
   // Scroll to the "Show More" button
-  showMoreButton.scrollIntoView({
-    block: 'center',    // Align the button to the center of the screen
-  });
+  setTimeout(() => {
+    showMoreButton.scrollIntoView({
+      block: 'center',    // Align the button to the center of the screen
+    });
+  }, 100);
 });
+
+

@@ -7,7 +7,7 @@
     display: none; 
   }
 
-  button{
+  header button{
     transition: ease 0.3s;
   }
   header button:hover {
