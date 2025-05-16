@@ -52,7 +52,9 @@ section {
 }
 
 section a{
-  color: crimson;
+  /* color: crimson; */
+  /* color: #6161f5; */
+  color: #4169e1;
   text-decoration: none;
 }
 
@@ -83,4 +85,8 @@ footer {
 .drupal-contribution-link{
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.drupal-contribution-hidden{
+  display: none;
 }
