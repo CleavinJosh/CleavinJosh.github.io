@@ -55,11 +55,15 @@ section a{
   /* color: crimson; */
   /* color: #6161f5; */
   color: #4169e1;
+  /* color: #9fc5e8; */
+  /* color: #ADD8E6; */
   text-decoration: none;
+  transition: ease 0.3s;
 }
 
 section a:hover{
   text-decoration: underline;
+  color: #1c1ca3;
 }
   
 .project{
@@ -87,6 +91,6 @@ footer {
   margin-bottom: 0;
 }
 
-.drupal-contribution-hidden{
+.hidden{
   display: none;
 }
