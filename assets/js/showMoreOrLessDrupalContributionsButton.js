@@ -29,5 +29,3 @@ showLessButton.addEventListener('click', () => {
     });
   }, 100);
 });
-
-
