@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./assets/css/skipLink.css">
   <link rel="stylesheet" href="./assets/css/button1.css">
   <link rel="stylesheet" href="./assets/css/drupalContributionButtons.css">
+  <link rel="stylesheet" href="./assets/css/certificatesAndAwards.css">
 </head>
 <body>
   <header>
@@ -69,19 +70,27 @@
 
     <!-- <div data-iframe-width="250" data-iframe-height="270" data-share-badge-id="6a9cb71e-738c-4c7d-ba44-430bbf22a5c4" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script> -->
 
+     <!-- Modal for Image Preview -->
+      <div id="imageModal" class="modal">
+        <span class="close" id="closeModal">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+      </div>
+
+      <!-- Start of Cards -->
       <div class="card-container">
         <img class="card-image" src="./assets/img/CCNA-_Introduction_to_Networks_certificate-1.png" alt="Introduction to Networks Certificate" loading="lazy">
-        <h3 class="card-title">Introduction to Networks</h3>
+        <h3 class="card-title" id="itn-certificate-title">Introduction to Networks</h3>
         <!-- <p>Description</p> -->
       </div>
       <div class="card-container">
         <img class="card-image" src="./assets/img/CCNA-_Switching-_Routing-_and_Wireless_Essentials_certificate-1.png" alt="Switching, Routing, and Wireless Essentials Certificate" loading="lazy">
-        <h3 class="card-title">Switching, Routing, and Wireless Essentials</h3>
+        <h3 class="card-title" id="srwe-certificate-title">Switching, Routing, and Wireless Essentials</h3>
         <!-- <p>Description</p> -->
       </div>
       <div class="card-container">
         <img class="card-image" src="assets\img\CCNA-_Enterprise_Networking-_Security-_and_Automation_certificate-1.png" alt="Enterprise Networking, Security, and Automation Certificate" loading="lazy">
-        <h3 class="card-title">Enterprise Networking, Security, and Automation</h3>
+        <h3 class="card-title" id="ensa-certificate-title">Enterprise Networking, Security, and Automation</h3>
         <!-- <p>Description</p> -->
       </div>
     </div>
@@ -320,5 +329,6 @@
   <script src="./assets/js/siteLogo.js"></script>
   <script src="./assets/js/showMoreOrLessDrupalContributionsButton.js"></script>
   <script src="./assets/js/drupalProfileButtons.js"></script>
+  <script src="./assets/js/certificatesAndAwards.js"></script>
 </body>
 </html>

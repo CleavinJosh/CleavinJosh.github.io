@@ -98,35 +98,3 @@ footer {
 /* .test{
   color: #1c1ca3;
 } */
-
-.certificates-and-awards-container{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  padding: 1.563rem;
-  border: 1px solid #cccccc;
-  border-radius: 8px;
-  justify-content: space-evenly;
-}
-
-.card-container{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  gap: 10px;
-  padding: 1.563rem;
-  border: 1px solid #cccccc;
-  border-radius: 8px;
-  max-width: 200px;
-}
-
-.card-image{
-  width: 200px;
-  border: 1px solid #cccccc;
-}
-
-.card-title{
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 1.5rem;
-}
