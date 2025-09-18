@@ -1,0 +1,28 @@
+body{
+    background: #222222;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+
+.container > *{
+    background: #3d3b3b;
+}
+
+.sidebar{
+    padding: 10px;
+}
+
+.profile-picture{
+    width: 100px;
+    border: 5px solid white;
+}
+
+.main-sections{
+    padding: 10px;
+}
